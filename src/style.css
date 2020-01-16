@@ -1,0 +1,134 @@
+body {
+  font-family: 'Roboto', sans-serif;
+} 
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+/*navbar*/
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+   .navbar a {
+  text-transform: uppercase;
+   }
+/*end navbar*/
+
+/*home*/
+    .home .jumbotron {
+    background-image: url("https://imgbbb.com/images/2020/01/02/yuliya-kosolapova-HZYIIxM2IIQ-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding-bottom: 200px;
+    padding-top: 100px;
+    }
+.home .jumbotron h5{
+  font-size: 18pt;
+  text-align: left;
+  font-weight: 800;
+  padding-left: 30px;
+  color: #2E8B57;
+} 
+.home .jumbotron h4 {
+  font-size: 16pt;
+  font-weight: 650;
+  padding-top: 20px;
+  color: #2E8B57;
+}
+/*end home*/
+
+/*about*/
+.about .jumbotron {
+  background-image: url("https://imgbbb.com/images/2020/01/02/johnny-van-der-leelie-h3a7hMonbBI-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+}
+.about .jumbotron h4{
+   font-size: 16pt;
+   padding-top: 40px;
+}
+ .about .jumbotron .btn {
+  border-radius: 20px;
+  background:  #2E8B57;
+  color: white;
+  margin: 10px;
+}
+.about .jumbotron .btn:hover {
+  border-radius: 20px;
+  border: 2px solid  #2E8B57;
+  background: white;
+  color:  #2E8B57;
+}
+/*end about*/
+/*gallery*/
+    .work {
+    background-image: linear-gradient(	#708090,#5F9EA0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0;
+    }
+.work p {
+  margin-top: 100px;
+  padding-top: 20px;
+  color: white;
+  text-align: center;
+  font-weight: 550;
+  font-size: 15pt;
+}
+.work p:hover {
+  font-size: 18pt;
+}
+.work img {
+  margin-bottom: 100px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 18px #888888;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.work img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+.work a{
+  text-decoration: none;
+}
+/*end gallery*/
+/*contact*/
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      margin-top: -20px;
+      background: #262626;
+      padding-top: 50px;
+      color: #A0A0A0; 
+    }
+footer h6{
+  text-decoration: underline;
+  font-size: 18pt;
+  padding: 20px;
+}
+footer p {
+  padding-bottom: 10px;
+}
+
+footer ul {
+  margin-bottom: 20px;
+  padding: 0;
+  list-style-type: none;
+}
+
+  footer ul li {
+  display: inline;
+  padding: 0.4em;
+}
+footer a {
+/*  color: #939393 !important; */
+  color: white !important;
+}
+footer img:hover {
+  width: 2%;
+}
+
+/*end contact*/
