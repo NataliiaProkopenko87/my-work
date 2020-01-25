@@ -39,15 +39,40 @@ body {
 
 /*about*/
 .about .jumbotron {
-  background-image: url("https://imgbbb.com/images/2020/01/02/johnny-van-der-leelie-h3a7hMonbBI-unsplash.jpg");
+  background-image: url("https://imgbbb.com/images/2020/01/07/plush-design-studio-l3N9Q27zULw-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0;
+    font-weight: bold;
+}
+.about .jumbotron p {
+  font-weight: bold;
 }
 .about .jumbotron h4{
    font-size: 16pt;
+   font-weight: bold;
    padding-top: 40px;
+}
+.about .jumbotron span {
+ margin: 5px;
+  
+}
+.about .jumbotron ul {
+  padding-left: -10px;
+}
+.about .jumbotron li {
+  list-style: none;
+  text-align: left;
+  font-size: 14pt;
+} 
+.about .jumbotron ul li::before {
+  content: "\2022";
+  color: #2E8B57;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
 }
  .about .jumbotron .btn {
   border-radius: 20px;
