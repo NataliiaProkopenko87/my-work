@@ -14,7 +14,7 @@ body {
 
 /*home*/
     .home .jumbotron {
-    background-image: url("../images/homeimg.jpg");
+    background-image: url("https://imgbbb.com/images/2020/02/27/homeimg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -39,7 +39,7 @@ body {
 
 /*about*/
 .about .jumbotron {
-  background-image: url("../images/aboutimg.jpg");
+  background-image: url("https://imgbbb.com/images/2020/02/27/aboutimg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
