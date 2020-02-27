@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Saira Condensed', ;
 } 
 /* Remove the navbar's default margin-bottom and rounded borders */ 
 /*navbar*/
@@ -14,7 +14,7 @@ body {
 
 /*home*/
     .home .jumbotron {
-    background-image: url("https://imgbbb.com/images/2020/01/02/yuliya-kosolapova-HZYIIxM2IIQ-unsplash.jpg");
+    background-image: url("../images/homeimg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -39,19 +39,15 @@ body {
 
 /*about*/
 .about .jumbotron {
-  background-image: url("https://imgbbb.com/images/2020/01/07/plush-design-studio-l3N9Q27zULw-unsplash.jpg");
+  background-image: url("../images/aboutimg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0;
-    font-weight: bold;
-}
-.about .jumbotron p {
-  font-weight: bold;
+    
 }
 .about .jumbotron h4{
    font-size: 16pt;
-   font-weight: bold;
    padding-top: 40px;
 }
 .about .jumbotron span {
@@ -100,7 +96,7 @@ body {
   padding-top: 20px;
   color: white;
   text-align: center;
-  font-weight: 550;
+  font-weight: 400;
   font-size: 15pt;
 }
 .work p:hover {
@@ -152,8 +148,15 @@ footer a {
 /*  color: #939393 !important; */
   color: white !important;
 }
-footer img:hover {
-  width: 2%;
+footer img {
+  width: 35px;
+  height: 35px;
+ background: #808080;
+ border-radius: 50%;
+ padding: 1px;
+ position: relative;
 }
-
+footer img:hover {
+  transform: scale(1.1);
+}
 /*end contact*/
